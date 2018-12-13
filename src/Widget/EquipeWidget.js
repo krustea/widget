@@ -45,8 +45,8 @@ class EquipeWidget extends Component {
 
         return (
             <div>
-                <h5 key={article.id}>{article.title}</h5>
-                <img className={"img"} src={article.urlToImage} alt=""/>
+                <h5 className="equiph5" key={article.id}>{article.title}</h5>
+                <img className="img" src={article.urlToImage} alt=""/>
                 <p>{article.description}</p>
             </div>
         );

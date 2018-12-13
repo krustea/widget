@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import animatecss from 'animate.css';
+import './Widget/EquipeCSS.css'
 import { Dashboard, Widget } from 'react-realtime-dashboard';
 import './App.css';
 import ChuckWidget from "./Widget/ChuckWidget";
